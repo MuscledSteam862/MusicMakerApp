@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MusicCreator">
+    <children>
+        <Pane prefHeight="495.0" prefWidth="581.0" style="-fx-background-color: #494846;">
+            <children>
+                <Button layoutX="62.0" layoutY="116.0" mnemonicParsing="false" onAction="#playSound1" prefHeight="98.0" prefWidth="131.0" style="-fx-background-color: red; -fx-background-radius: 5; -fx-border-color: black; -fx-border-width: 3;" />
+                <Button layoutX="249.0" layoutY="116.0" mnemonicParsing="false" onAction="#playSound2" prefHeight="98.0" prefWidth="131.0" style="-fx-background-color: #0FC1EB; -fx-background-radius: 5; -fx-border-color: black; -fx-border-width: 3;" />
+                <Button layoutX="425.0" layoutY="116.0" mnemonicParsing="false" onAction="#playSound3" prefHeight="98.0" prefWidth="131.0" style="-fx-background-color: #07E684; -fx-border-color: black; -fx-border-width: 3;" />
+                <Button layoutX="62.0" layoutY="248.0" mnemonicParsing="false" onAction="#playSound4" prefHeight="98.0" prefWidth="131.0" style="-fx-background-color: #EBE115; -fx-border-width: 3; -fx-border-color: black;" />
+                <Button layoutX="249.0" layoutY="248.0" mnemonicParsing="false" onAction="#playSound5" prefHeight="98.0" prefWidth="131.0" style="-fx-background-color: #A738F2; -fx-border-color: black; -fx-border-width: 3;" />
+                <Button layoutX="425.0" layoutY="248.0" mnemonicParsing="false" onAction="#playSound6" prefHeight="98.0" prefWidth="131.0" style="-fx-background-color: #C7F5CB; -fx-border-color: black; -fx-border-width: 3;" />
+                <Button layoutX="62.0" layoutY="369.0" mnemonicParsing="false" onAction="#playSound7" prefHeight="98.0" prefWidth="131.0" style="-fx-background-color: #F59400; -fx-border-color: black; -fx-border-width: 3;" />
+                <Button layoutX="249.0" layoutY="369.0" mnemonicParsing="false" onAction="#playSound8" prefHeight="98.0" prefWidth="131.0" style="-fx-background-color: #0107F0; -fx-border-color: black; -fx-border-width: 3;" />
+                <Button layoutX="425.0" layoutY="369.0" mnemonicParsing="false" onAction="#playSound9" prefHeight="98.0" prefWidth="131.0" style="-fx-background-color: #DB00B5; -fx-border-color: black; -fx-border-width: 3;" />
+            <Label alignment="CENTER" layoutX="160.0" layoutY="30.0" prefHeight="50.0" prefWidth="272.0" text="Music Console" textFill="WHITE">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Label>
+           
+            </children>
+        </Pane>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+</GridPane>

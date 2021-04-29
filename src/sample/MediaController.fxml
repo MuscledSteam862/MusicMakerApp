@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="674.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MediaController">
+    <children>
+        <BorderPane layoutX="540.0" layoutY="245.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <center>
+                <MediaView fx:id="mediaView" fitHeight="450.0" fitWidth="1080.0" BorderPane.alignment="CENTER" />
+            </center>
+            <bottom>
+                <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <Slider fx:id="timeSlider" majorTickUnit="10.0" showTickLabels="true">
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                        </Slider>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="12.0">
+                            <children>
+                                <Button fx:id="preBtn" mnemonicParsing="false" onAction="#preBtnClick" text="Previous" />
+                                <Button fx:id="playBtn" mnemonicParsing="false" onAction="#play" text="Play/Pause" />
+                                <Button fx:id="nextBtn" mnemonicParsing="false" onAction="#nextBtnClick" text="Next" />
+                        <Slider fx:id="volumeSlider" />
+                            </children>
+                        </HBox>
+                  <Slider />
+                    </children>
+                </VBox>
+            </bottom>
+            <top>
+                <MenuBar BorderPane.alignment="CENTER">
+                    <menus>
+                        <Menu mnemonicParsing="false" text="File">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#openSongMenu" text="Open Song" />
+                            </items>
+                        </Menu>
+
+                        <Menu mnemonicParsing="false" text="Help">
+                            <items>
+                                <MenuItem mnemonicParsing="false" onAction="#InfoAboutMedia" text="About this Player" />
+                            </items>
+                        </Menu>
+                    </menus>
+                </MenuBar>
+            </top>
+        </BorderPane>
+    </children>
+</AnchorPane>

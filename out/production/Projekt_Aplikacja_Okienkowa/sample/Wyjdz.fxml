@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="502.0" prefWidth="902.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Wyjdz">
+   <children>
+      <ImageView fitHeight="507.0" fitWidth="901.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/nutka.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Tak" layoutX="207.0" layoutY="210.0" mnemonicParsing="false" onAction="#Tak" prefHeight="56.0" prefWidth="123.0" text="Tak" />
+      <Button fx:id="Nie" layoutX="737.0" layoutY="210.0" mnemonicParsing="false" onAction="#Nie" prefHeight="56.0" prefWidth="123.0" text="Nie" />
+      <Label layoutX="37.0" prefHeight="99.0" prefWidth="864.0" text="Czy napewno chcesz opuscic aplikacje ?" textFill="WHITE">
+         <font>
+            <Font size="48.0" />
+         </font></Label>
+      <ImageView fx:id="yes" fitHeight="110.0" fitWidth="132.0" layoutX="58.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ikonay-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="no" fitHeight="110.0" fitWidth="113.0" layoutX="600.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ikonax-removebg-preview.png" />
+         </image>
+      </ImageView>
+  
+   </children>
+</AnchorPane>

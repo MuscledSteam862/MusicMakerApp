@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="438.0" prefWidth="785.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Info">
+   <children>
+      <ImageView fitHeight="442.0" fitWidth="827.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/nutka.png" />
+         </image></ImageView>
+      <Label alignment="CENTER" layoutX="-2.0" layoutY="1.0" prefHeight="80.0" prefWidth="785.0" text="Informacje o Aplikacji" textFill="WHITE">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="17.0" layoutY="81.0" prefHeight="66.0" prefWidth="751.0" text="Aplikacja Musicmaker powstała dzięki wspopracy dwóch wspaniałych ludizi Norberta Konefąła oraz Adriana Janeczko. Aplikacja ta powstała dla użytkwoików potrzebujących obejrzeć video, można róniez pobawic sie w DJ dzięki stylowej konsoli go gry." />
+      <Label alignment="CENTER" layoutX="17.0" layoutY="224.0" prefHeight="18.0" prefWidth="97.0" text="Rebus:" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="281.0" layoutY="160.0" prefHeight="37.0" prefWidth="149.0" text="BONUS" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="88.0" fitWidth="135.0" layoutX="115.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pajak-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="227.0" layoutY="247.0" text="+" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="341.0" prefHeight="38.0" prefWidth="80.0" text=" -/jąk/" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="101.0" fitWidth="175.0" layoutX="256.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pensjonat-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="433.0" layoutY="250.0" prefHeight="26.0" prefWidth="34.0" text="=" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="281.0" layoutY="344.0" prefHeight="38.0" prefWidth="98.0" text="-/pen/" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="Login" layoutX="677.0" layoutY="254.0" mnemonicParsing="false" onAction="#zatwierdz" text="Zatwierdz" />
+      <PasswordField fx:id="txtpassword" layoutX="474.0" layoutY="254.0" />
+      <Label fx:id="lblStatus" layoutX="431.0" layoutY="312.0" prefHeight="38.0" prefWidth="328.0" text="Haslo:" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="445.0" prefWidth="887.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane fx:id="root" prefHeight="506.0" prefWidth="863.0">
+         <children>
+            <AnchorPane layoutX="-3.0" layoutY="-4.0" prefHeight="515.0" prefWidth="203.0" style="-fx-background-color: #494846;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <VBox layoutY="155.0" prefHeight="360.0" prefWidth="246.0" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="155.0">
+                     <children>
+                        <Button fx:id="NK" alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#NK" prefHeight="65.0" prefWidth="246.0" styleClass="button1" stylesheets="@../style/style.css" text="Norbert Konefał" textFill="WHITE">
+                           <graphic>
+                              <ImageView fitHeight="37.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../profil_picture/nuteczka-removebg-preview.png" />
+                                 </image></ImageView>
+                           </graphic>
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding></Button>
+                        <Button fx:id="AJ" alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#AJ" prefHeight="65.0" prefWidth="246.0" styleClass="button2" text="Adrian Janeczko" textFill="WHITE">
+                           <graphic>
+                              <ImageView fitHeight="36.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../profil_picture/nuttek-removebg-preview.png" />
+                                 </image></ImageView>
+                           </graphic>
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding>
+                           <stylesheets>
+                              <URL value="@../style/style.css" />
+                              <URL value="@../style/style.css" />
+                           </stylesheets>
+                        </Button>
+                     </children></VBox>
+                  <Pane layoutX="2.0" layoutY="80.0" prefHeight="66.0" prefWidth="246.0" style="-fx-background-color: #959595; -fx-background-radius: 5;">
+                     <children>
+                        <Label layoutX="42.0" layoutY="12.0" prefHeight="42.0" prefWidth="165.0" text="Autorzy" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children></AnchorPane>
+            <ImageView fx:id="myImageView" fitHeight="519.0" fitWidth="900.0" layoutX="244.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" style="-fx-border-color: black; -fx-border-width: 5;">
+               <image>
+                  <Image url="@../images/nutka.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="MediaController" layoutX="289.0" layoutY="99.0" mnemonicParsing="false" onAction="#MediaController" prefHeight="55.0" prefWidth="246.0" text="Mp4Player">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-video-64__1_-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="MusicCreator" layoutX="289.0" layoutY="176.0" mnemonicParsing="false" onAction="#MusicCreator" prefHeight="55.0" prefWidth="246.0" text="MusicCreator">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-music-record-30.png" />
+                     </image></ImageView>
+               </graphic></Button>
+            <Button fx:id="Wyjdz" layoutX="841.0" layoutY="423.0" mnemonicParsing="false" onAction="#Wyjdz" prefHeight="55.0" prefWidth="246.0" text="Wyjdz">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/icons8-door-50.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="Informacje" layoutX="841.0" layoutY="334.0" mnemonicParsing="false" onAction="#Info" prefHeight="55.0" prefWidth="246.0" text="Informacje o Aplikacji">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/i-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <ImageView fx:id="klapkaImage" fitHeight="179.0" fitWidth="169.0" layoutX="289.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/klapka-removebg-preview.png" />
+               </image></ImageView>
+            <Label layoutX="309.0" layoutY="14.0" prefHeight="74.0" prefWidth="207.0" text="Music Time" textFill="WHITE">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="170.0" fitWidth="246.0" layoutX="907.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/saksofon-removebg-preview.png" />
+               </image></ImageView>
+            <ImageView fx:id="nutka1" fitHeight="30.0" fitWidth="29.0" layoutX="951.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-musical-26.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="nutka2" fitHeight="29.0" fitWidth="29.0" layoutX="922.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-musical-26.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="nutka3" fitHeight="29.0" fitWidth="29.0" layoutX="893.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-musical-26.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="nutka4" fitHeight="29.0" fitWidth="29.0" layoutX="864.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8-musical-26.png" />
+               </image>
+            </ImageView>
+
+
+
+         </children>
+   </AnchorPane>
+   </children>
+</GridPane>

@@ -1,0 +1,34 @@
+.button1
+{
+-fx-background-color :  #494846;
+-fx-background-radius :  30 0 0 30;
+}
+.button1:hover
+{
+-fx-background-color : #696969;
+-fx-background-radius :  30 0 0 30;
+}
+.button1:pressed
+{
+-fx-background-color : #76777B ;
+-fx-background-radius :  30 0 0 30;
+}
+
+.button2
+{
+-fx-background-color :  #494846;
+-fx-background-radius :  20;
+}
+.button2:hover
+{
+-fx-background-color : #696969 ;
+-fx-background-radius :  20;
+}
+.button2:pressed
+{
+-fx-background-color : #76777B ;
+-fx-background-radius :  20;
+}
+.PaneMusic{
+-fx-background-color : #494846B ;
+}
